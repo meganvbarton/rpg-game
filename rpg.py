@@ -55,7 +55,7 @@ while True:
   #['go','east']
   move = ''
   while move == '':  
-    move = input('>')
+    move = raw_input('>')
     
   move = move.lower().split()
 
